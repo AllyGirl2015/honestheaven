@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-background: #FFFFFF;
+  --color-surface: #F3F4F6;
+  --color-text-primary: #1F2937;
+  --color-rainbow-red: #FF5F61;
+  --color-rainbow-orange: #FF9E57;
+  --color-rainbow-yellow: #F9E65C;
+  --color-rainbow-green: #5ED88B;
+  --color-rainbow-blue: #57A4FF;
+  --color-rainbow-purple: #B979FF;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
+  
+  --animate-blob: blob 7s infinite;
+  --animate-blob-reverse: blob-reverse 9s infinite;
+  --animate-border-flow: border-flow 3s ease infinite;
+  
+  @keyframes blob {
+    0% { transform: translate(0px, 0px) scale(1); }
+    33% { transform: translate(30px, -50px) scale(1.1); }
+    66% { transform: translate(-20px, 20px) scale(0.9); }
+    100% { transform: translate(0px, 0px) scale(1); }
+  }
+
+  @keyframes blob-reverse {
+    0% { transform: translate(0px, 0px) scale(1); }
+    33% { transform: translate(-30px, 50px) scale(0.9); }
+    66% { transform: translate(20px, -20px) scale(1.1); }
+    100% { transform: translate(0px, 0px) scale(1); }
+  }
+
+  @keyframes border-flow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+}
+
+body {
+  @apply bg-background text-text-primary font-sans overflow-x-hidden;
+}
