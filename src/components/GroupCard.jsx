@@ -9,10 +9,10 @@ const GroupCard = ({ group, index }) => {
       className="group relative block h-full"
     >
       {/* Animated Rainbow Border Background */}
-      <div className="absolute -inset-[2px] rounded-2xl bg-[linear-gradient(90deg,var(--color-rainbow-red),var(--color-rainbow-orange),var(--color-rainbow-yellow),var(--color-rainbow-green),var(--color-rainbow-blue),var(--color-rainbow-purple),var(--color-rainbow-red))] bg-[length:200%_100%] animate-border-flow opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+      <div className="absolute -inset-[2px] rounded-2xl bg-[linear-gradient(90deg,var(--color-rainbow-red),var(--color-rainbow-orange),var(--color-rainbow-yellow),var(--color-rainbow-green),var(--color-rainbow-blue),var(--color-rainbow-purple),var(--color-rainbow-red))] bg-[length:200%_100%] animate-border-flow opacity-100 transition-opacity duration-300"></div>
       
       {/* Card Content */}
-      <div className="relative bg-white p-6 rounded-2xl h-full transition-all duration-300 group-hover:-translate-y-1 border border-gray-100 group-hover:border-transparent overflow-hidden">
+      <div className="relative bg-white p-6 rounded-2xl h-full transition-all duration-300 group-hover:-translate-y-1 border border-transparent overflow-hidden">
         
         <div className={`absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-transparent to-gray-50 opacity-50 rounded-bl-full -mr-4 -mt-4 transition-transform group-hover:scale-150 duration-500`}></div>
       
