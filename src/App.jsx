@@ -31,33 +31,75 @@ function App() {
             Welcome to Honest Heaven 🏳️‍🌈
           </span>
           <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6 tracking-tight">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-rainbow-red via-rainbow-purple to-rainbow-blue">Supporting LGBTQ+ Texans</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-rainbow-red via-rainbow-purple to-rainbow-blue">Supporting LGBTQ+ People Everywhere</span>
           </h1>
           <p className="text-gray-500 max-w-2xl mx-auto font-sans text-xl leading-relaxed">
-            A space to learn about movements supporting the dignity, safety, and visibility of LGBTQ+ communities. Explore groups raising awareness and encouraging public dialogue.
+            A global space to learn about movements supporting the dignity, safety, and visibility of LGBTQ+ communities. Explore groups raising awareness and encouraging public dialogue worldwide.
           </p>
         </div>
       </div>
       
-      {/* About Section */}
+      {/* About Section - RBEW Message */}
       <section id="about" className="py-16 bg-gray-50 border-b border-gray-100">
         <div className="max-w-4xl mx-auto px-6 md:px-12">
           <div className="relative p-[3px] rounded-2xl bg-[linear-gradient(90deg,var(--color-rainbow-red),var(--color-rainbow-orange),var(--color-rainbow-yellow),var(--color-rainbow-green),var(--color-rainbow-blue),var(--color-rainbow-purple),var(--color-rainbow-red))] bg-[length:200%_100%] animate-border-flow">
-            <div className="bg-white rounded-xl p-8 md:p-12 text-center h-full">
-              <h2 className="text-3xl font-heading font-bold text-gray-900 mb-8">About Honest Heaven</h2>
+            <div className="bg-white rounded-xl p-8 md:p-12 h-full">
+              <h2 className="text-3xl font-heading font-bold text-gray-900 mb-8 text-center">A Message from Reality Builders Entertainment Works (RBEW)</h2>
               <div className="prose prose-lg mx-auto text-gray-600 font-sans leading-relaxed space-y-6">
+                <p className="text-center font-medium text-gray-700">
+                  HonestHeaven.org is now an official LGBTQ+ support hub operated by RBEW. As a transgender-founded organization, RBEW does not take a neutral position on LGBTQ+ existence, dignity, or safety. Our commitment extends far beyond Texas — we stand with LGBTQ+ people everywhere, across all borders, cultures, and communities.
+                </p>
+                
+                <div className="bg-rainbow-purple/5 border-l-4 border-rainbow-purple p-4 rounded-r-lg my-6">
+                  <p className="font-semibold text-gray-800 mb-2">We oppose discrimination in all forms, in all places.</p>
+                  <p className="font-semibold text-gray-800">We support movements that protect LGBTQ+ lives, in all places.</p>
+                </div>
+
+                <h3 className="text-xl font-heading font-bold text-gray-900 mt-8">Our Stance on Anti-LGBTQ+ Legislation</h3>
                 <p>
-                  Before we begin, this message is produced by an independent movement. As a transgender-founded organization, <strong>RBEW</strong> supports the dignity, safety, and visibility of LGBTQ+ Texans. While some of this movement's values align with ours, RBEW is not formally affiliated with or endorsing the organization; we are simply providing space for them to share their story.
+                  Around the world, harmful laws continue to threaten the rights, safety, and basic humanity of LGBTQ+ individuals. Laws like Texas SB08 and HB29 are just two examples in a much larger global pattern of restrictions — limiting legal identity, restricting restroom access, undermining bodily autonomy, criminalizing or suppressing LGBTQ+ expression, targeting queer youth or families, and erasing protections for trans people.
                 </p>
+                <div className="bg-rainbow-red/5 border-l-4 border-rainbow-red p-4 rounded-r-lg my-6">
+                  <p className="font-semibold text-gray-800">RBEW opposes legislation of this nature wherever it occurs.</p>
+                  <p className="italic text-gray-600">This is not a political position — it is a human rights stance.</p>
+                </div>
+
+                <h3 className="text-xl font-heading font-bold text-gray-900 mt-8">Endorsing the 6W Project</h3>
                 <p>
-                  Texas Senate Bill 8 and House Bill 29 introduced restrictions that target transgender Texans. These laws affect restroom access, legal identification, and basic dignity issues that shape how people move through everyday life.
+                  The 6W Project is one of many vital grassroots movements working to raise awareness and resist harmful policy. RBEW formally endorses the 6W Project because their mission aligns with our core values: protecting lives, elevating real stories, and pushing back against injustices affecting LGBTQ+ people.
                 </p>
+                <p className="italic">
+                  Their work is one example of the kind of community-driven activism RBEW will uplift and amplify.
+                </p>
+
+                <h3 className="text-xl font-heading font-bold text-gray-900 mt-8">RBEW's Global Activist Initiative</h3>
                 <p>
-                  One community movement speaking out about these laws is the <strong>6W Project</strong>. They aim to raise awareness, encourage public dialogue, and highlight how these policies impact real people.
+                  RBEW is building its own LGBTQ+ advocacy network designed to reach across the United States, and ultimately across the world. Our initiative will focus on:
                 </p>
-                <p className="text-sm italic mt-8 text-gray-500">
-                  The following message reflects the movement's voice, not an endorsement, simply to provide a platform for Texans to understand what is happening.
+                <ul className="list-disc list-inside space-y-2 text-gray-600">
+                  <li>Challenging discriminatory laws globally</li>
+                  <li>Providing support, resources, and visibility to LGBTQ+ youth</li>
+                  <li>Partnering with activist organizations across countries</li>
+                  <li>Expanding access to mental health and crisis support</li>
+                  <li>Ensuring safe spaces for trans and queer people everywhere</li>
+                  <li>Offering guidance on legal, social, and identity challenges</li>
+                  <li>Sharing lived experiences through community storytelling</li>
+                </ul>
+                
+                <div className="bg-rainbow-blue/5 border-l-4 border-rainbow-blue p-4 rounded-r-lg my-6">
+                  <p className="font-semibold text-gray-800">The HonestHeaven Hub will become a centralized global resource for LGBTQ+ empowerment, education, and action.</p>
+                </div>
+
+                <p className="text-center font-medium text-gray-700">
+                  Our voice will not be tied to political parties or borders.<br/>
+                  Our mission is to defend humanity, dignity, and truth — everywhere they are threatened.
                 </p>
+
+                <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-lg mt-8">
+                  <p className="text-sm text-yellow-800 font-medium text-center">
+                    ⚠️ <strong>IMPORTANT NOTE:</strong> HonestHeaven does not provide legal, medical, or emergency services and does not replace professional support.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -80,7 +122,7 @@ function App() {
       </main>
 
       <footer className="py-12 text-center text-gray-500 text-sm font-sans border-t border-gray-100 bg-gray-50">
-        <p>&copy; {new Date().getFullYear()} Honest Heaven. Made with 🏳️‍🌈 and love.</p>
+        <p>&copy; {new Date().getFullYear()} Honest Heaven.</p>
       </footer>
     </div>
   );
